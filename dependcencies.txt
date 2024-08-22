@@ -1,0 +1,8 @@
+numpy
+PIP
+pillow
+pylsd
+pylsd-nova
+lsd
+opencv-python-headless
+matplotlib
