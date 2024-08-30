@@ -129,7 +129,7 @@ class MyVideoCapture:
 
 
 def run_take_a_picture(propmpt, file_name_to_save, color):
-    b = App(tkinter.Tk(), App.WINDOW_TITLE, propmpt, file_name_to_save,color, App.DEVICE_EXTERNAL)
+    b = App(tkinter.Tk(), App.WINDOW_TITLE, propmpt, file_name_to_save,color, App.DEVICE_INTERNAL)
     if b.exit_app == True:
         quit()
     return b.taken_picture

@@ -140,7 +140,7 @@ class LivePicture:
             tts_sound = LivePicture.TURN_UP
             text = LivePicture.TURN_UP
         #text to speech - TILTING
-        elif y_left > y_right+LivePicture.ERROR_PIXEL:  # y_left/y_right > p_left.y/p_right.y *1.02: 
+        elif y_left > y_right+LivePicture.ERROR_PIXEL:  # y_left/y_right > p_left.y/p_right.y *1.2:
             if self.direction == Line.VERTICAL:
                 tts_sound = LivePicture.TILT_LEFT
                 text = LivePicture.TILT_LEFT    
@@ -302,7 +302,7 @@ def run_YOLO(target_point, wall_corner_points_vertex, direction):
     detector = LivePicture(target_point, wall_corner_points_vertex, direction)
 
     # Capture video from the webcam
-    video = cv2.VideoCapture(LivePicture.DEVICE_EXTERNAL)
+    video = cv2.VideoCapture(LivePicture.DEVICE_INTERNAL)
 
     while True:
         ret, frame = video.read()

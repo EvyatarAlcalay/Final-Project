@@ -1,7 +1,7 @@
 
 # 💡 Image On a Wall – Layout Planner
 <!-- cool project cover image -->
-![Project Cover Image](/media/project-cover-img.jpg)
+![Project Cover Image](/assets/opening_pic.jpg)
 
 <!-- table of content -->
 ## Table of Contents
@@ -20,7 +20,7 @@
 - [Evyatar Alcalay](evyataralcalay@mail.huji.ac.il)
 
 **Supervisor**
-- [Supervisor](wwww.link_to_lab.com)
+- [Gal Katzhendler](gal.katzhendler@mail.huji.ac.il)
 
 
 ## 📚 Project Description
