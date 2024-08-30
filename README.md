@@ -6,7 +6,7 @@
 <!-- table of content -->
 ## Table of Contents
 - [The Team](#the-team)
-- [Project Description](#Project Description)
+- [Project Description](#Project-Description)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installing](#installing)
@@ -22,7 +22,7 @@
 **Supervisor**
 - [Gal Katzhendler](gal.katzhendler@mail.huji.ac.il)
 
-## 📚 Project Description
+## 📚 Project-Description
 - A brief description of the project/challange, what it does, and how it works.
 The Layout Planner App helps users to hang easily  a picture on a wall without using any measurement tools. 
 Existing Apps only provide illustration of how the picture will be appeared on the wall while the Layout Planner provides the user voice guidance (by Text to speech) and text guidance of how and where to hang the picture in wall according to the user preference and symmetrically to the wall.
