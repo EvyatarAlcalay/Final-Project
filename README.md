@@ -40,25 +40,42 @@ your local machine for development and testing purposes.
 
 ### Prerequisites
 Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+- camera (internal or external, now the project work on external camera nut you can change to work with the computer camera by replace)
+- rectangular and smooth wall (its not prommised the app will work on other walls)  
+- rectangular picture
+- internet connection
+- speakers (to hear the voice guidence)
 
 ### Installing
-A step by step series of examples that tell you how to get a development environment running
+**instructions**\
+- First, you have to install python 3.11.7
+- Second, you have to install visual studio code
+- Third, you have to install all of these packages:
+  * pillow (PIL)
+  * cv2
+  * numpy
+  * matplotlib
+  * torch
+  * ultralytics
+  * playsound
+  * gtts
+- Also, the app is used with the built in packages (verify you have them)
+  * math
+  * tkinter
+  * os.path
+  * os
+  * threading
+  * time
 
-Say what the step will be
-
-    Give the example
-
-And repeat
-
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
+**A step by step series of examples that tell you how to get a development environment running**\
+- create a folder on the computer pc
+- download repository into the folder
+- install the packages
+- run main.py
 
 ## Testing
-Explain how to run tests for this project
+**Explaination how to run tests for this project**\
+we put the camera in distance of 3 and 2 meters from the wall, for each distance in angle of 90 degrees from the wall, 66 degreees an 45 degrees from the wall. we tested 3 times for each combination (distance and angle)
 
 ### Sample Tests
 Explain what these tests test and why

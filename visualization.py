@@ -1,9 +1,7 @@
-# import cv2
-# import numpy as np
-#
-#
-#
-#
+import cv2
+import numpy as np
+
+
 def draw_lines(image, lines):
     # Define a list of colors in BGR format
     colors = [
@@ -22,38 +20,6 @@ def draw_lines(image, lines):
             cv2.line(image, (x1, y1), (x2, y2), color, 3)
 
 
-# def draw_representative_lines(image, representative_lines):
-#     # Flatten the structure of representative_lines to [[x1, y1, x2, y2], ...]
-#     flattened_lines = [[x1, y1, x2, y2] for ((x1, y1), (x2, y2)) in representative_lines]
-#
-#     for line in flattened_lines:  # Use flattened_lines here
-#         cv2.line(image, (line[0], line[1]), (line[2], line[3]), (0, 255, 0), 3)
-#
-# #
-
-
-import cv2
-import numpy as np
-
-# def draw_lines(image, lines):
-#     """
-#     Draw lines on the image.
-#     lines: List of lines represented as (x1, y1, x2, y2).
-#     """
-#     # Define a list of colors in BGR format
-#     colors = [
-#         (0, 0, 255),  # Red
-#         (0, 255, 0),  # Green
-#         (255, 0, 0),  # Blue
-#         (0, 255, 255),  # Yellow
-#     ]
-#
-#     # Iterate through the lines, drawing each one in a different color
-#     for i, line in enumerate(lines):
-#         if line is not None:  # Ensure the line exists
-#             color = colors[i % len(colors)]  # Cycle through colors
-#             x1, y1, x2, y2 = line
-#             cv2.line(image, (x1, y1), (x2, y2), color, 3)
 
 def draw_representative_lines(image, representative_lines):
     """
