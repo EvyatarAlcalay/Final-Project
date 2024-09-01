@@ -43,7 +43,7 @@ Existing Apps only provide illustration of how the picture will be appeared on t
 - LivePicture.py
 
 **A list of the main technologies used in the project**\
-The App is using with YOLO WORLD model to detect the picture when the user hang it.
+The App is using with YOLOv8 model to detect the picture when the user hang it.
 
 
 ## Getting Started
