@@ -105,10 +105,11 @@ we put the camera in distance of 3 and 2 meters from the wall, for each distance
 
 
 ## Built With
-  - [Based on the Ikea app](https://www.example.com)
-  - [based on Open CV](https://www.contributor-covenant.org/) - Used for the Code of Conduct
-  - [Understanding Homography](https://towardsdatascience.com/understanding-homography-a-k-a-perspective-transformation-cacaed5ca17)
+  - [Wall Gallery Design Lite App](https://apps.apple.com/il/app/wall-gallery-designer-lite/id1289357200?l=iw) - I took an inspiration for my App from this App
+  - [Based on Open CV](https://opencv.org/) - Used for image processing
+  - [Understanding Homography](https://towardsdatascience.com/understanding-homography-a-k-a-perspective-transformation-cacaed5ca17) - used to understand how to align a curvate picture
+  - [Based on Yolo8v](https://docs.ultralytics.com/models/yolo-world/) - used for detcting the image to be hanged
 
 
 ## Acknowledgments
-  - Thank to .....
+  - Thank to Gal Katzhendler and Yuri Klebanov which direct me all the way until the app will be perfect
