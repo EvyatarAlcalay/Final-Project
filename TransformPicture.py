@@ -2,6 +2,9 @@ import cv2
 import numpy as np
 
 class TransformPicture:
+    """_summary_
+    This class is responsible to curvate the strict picture to be hanged and fit it to the wall sizes
+    """
     def __init__(self, filename_input, destination_points,filename_output):
         self.filename = filename_input
         self.img = cv2.imread(filename_input, cv2.IMREAD_UNCHANGED)

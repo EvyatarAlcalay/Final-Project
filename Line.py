@@ -2,6 +2,9 @@ from Vertex import Vertex
 import math
 
 class Line:
+    """_summary_
+    This class is responsible to create lines (we use them on the grid and on the crop operation)
+    """
     HORIZONTAL = 1
     VERTICAL = 2
     UNKNOWN = -1

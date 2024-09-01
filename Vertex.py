@@ -1,5 +1,8 @@
 import math
 class Vertex:
+    """_summary_
+    This class represent position on the screen.
+    """
     def __init__(self,x,y,id=-1):
         self.x = x
         self.y = y

@@ -5,6 +5,9 @@ from Vertex import Vertex
 from AlignPicture import AlignPicture
 
 class CamScanner:
+    """_summary_
+    This class s responsible to crop pictures
+    """
     WINDOW_TITLE = "Cam-Scanner"
     INPUT_PICTURE_FILE = "./assets/Image to hang before cropping.jpg"
     OUTPUT_PICTURE_FILE = "./assets/Picture to hang.jpg"

@@ -13,6 +13,9 @@ from Line import Line
 from Vertex import Vertex
 
 class LivePicture:
+    """_summary_
+    This class is responsible to guide the user how and where to hang the picture (according to the illustration)
+    """
     #system constants
     ROOT = "Hang The Picture According To The Istructions"
     DETECTION_MODEL = "yolov8s-worldv2.pt"

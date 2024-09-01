@@ -7,6 +7,9 @@ import cv2
 from Line import Line
 
 class Rotation:
+    """_summary_
+    This class is responsible to rotate the picture by 90 degrees.
+    """
 
     #INPUT_PICTURE_FILE = "./assets/Image to hang before cropping.jpg"
     WINDOW_TITLE = "Rotation"

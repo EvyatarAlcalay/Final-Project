@@ -5,6 +5,9 @@ from tkinter.messagebox import askyesno
 
 
 class FinalPicture:
+    """_summary_
+    This class is responsible to display the final illustration
+    """
 
     RADIUS = 5
     WINDOW_TITLE = "Final Picture"

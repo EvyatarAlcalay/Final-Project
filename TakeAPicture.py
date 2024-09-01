@@ -3,7 +3,11 @@ import cv2
 import PIL.Image, PIL.ImageTk
 import time
 
+
 class App:
+    """_summary_
+    This class is responsible to take the pictures of the wall and the photo to be hanged.
+    """
     WINDOW_TITLE = "Take a Picture"
     SECOND = 1000 #second = 1000ms
     TIMER_INITIAL = 3

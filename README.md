@@ -89,7 +89,7 @@ Requirements for the software and other tools to build, test and push
 **Explaination how to run tests for this project**\
 we put the camera in distance of 3 and 2 meters from the wall, for each distance in angle of 90 degrees from the wall, 66 degreees an 45 degrees from the wall. we tested 3 times for each combination (distance and angle)
 
-### Sample Tests
+### Test instructions
 - run main.py
 - Take the picture to be hanged and apporve it
 - Crop the picture
@@ -104,7 +104,7 @@ we put the camera in distance of 3 and 2 meters from the wall, for each distance
 - follow the guidence to hange the picture
 
 
-## ⚙️ Built With
+## Built With
   - [Based on the Ikea app](https://www.example.com)
   - [based on Open CV](https://www.contributor-covenant.org/) - Used for the Code of Conduct
   - [Understanding Homography](https://towardsdatascience.com/understanding-homography-a-k-a-perspective-transformation-cacaed5ca17)

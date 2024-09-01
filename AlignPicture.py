@@ -7,6 +7,10 @@ import numpy as np
 
 
 class AlignPicture:
+    """_summary_
+    This class is using the homographic matrix to align picture..
+    """
+
     def __init__(self, input_picture_file, output_picture_file, point_list, destination_points_list=None):
         """
         :param input_picture_file: for camscanner: "./assets/image_to_hang.jpg"

@@ -7,6 +7,9 @@ from TransformPicture import TransformPicture
 
 
 class FixPicture:
+    """_summary_
+    This class is responsible to display the illustration the the user and enable him to choose other points th hang the picture
+    """
     WINDOW_TITLE = "Fix Picture"
     RADIUS = 5
     SMALL_FACTOR = 4
