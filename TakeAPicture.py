@@ -8,8 +8,8 @@ class App:
     SECOND = 1000 #second = 1000ms
     TIMER_INITIAL = 3
     DELAY = TIMER_INITIAL * SECOND
-    DEVICE_INTERNAL = 0
-    DEVICE_EXTERNAL = 1
+    DEVICE_INTERNAL = 1
+    DEVICE_EXTERNAL = 0
 
     def __init__(self, window, window_title,prompt, file_name_to_save, color, video_source=0):
         """
@@ -129,7 +129,7 @@ class MyVideoCapture:
 
 
 def run_take_a_picture(propmpt, file_name_to_save, color):
-    b = App(tkinter.Tk(), App.WINDOW_TITLE, propmpt, file_name_to_save,color, App.DEVICE_INTERNAL)
+    b = App(tkinter.Tk(), App.WINDOW_TITLE, propmpt, file_name_to_save,color, App.DEVICE_EXTERNAL)
     if b.exit_app == True:
         quit()
     return b.taken_picture

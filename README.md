@@ -5,17 +5,17 @@
 
 <!-- table of content -->
 ## Table of Contents
-- [The Team](#the-team)
+- [The Team](#The-Team)
 - [Project Description](#Project-Description)
-- [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installing](#installing)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Built With](#built-with)
-- [Acknowledgments](#acknowledgments)
+- [Getting Started](#Getting-Started)
+- [Prerequisites](#Prerequisites)
+- [Installing](#Installing)
+- [Testing](#Testing)
+- [Deployment](#Deployment)
+- [Built With](#Built-with)
+- [Acknowledgments](#Acknowledgments)
 
-## 👥 The Team 
+## The Team 
 **Team Members**
 - [Evyatar Alcalay](evyataralcalay@mail.huji.ac.il)
 
@@ -24,9 +24,8 @@
 
 
 ## Project Description 
-📚
 **A brief description of the project/challange, what it does, and how it works**
-The Layout Planner App helps users to hang easily  a picture on a wall without using any measurement tools. 
+The Layout Planner App helps users to hang easily a picture on a wall without using any measurement tools. 
 Existing Apps only provide illustration of how the picture will be appeared on the wall while the Layout Planner provides the user voice guidance (by Text to speech) and text guidance of how and where to hang the picture in wall according to the user preference and symmetrically to the wall.
 
 - A list of the main features and functionalities of the project.
@@ -34,17 +33,17 @@ Existing Apps only provide illustration of how the picture will be appeared on t
 - A list of the main technologies used in the project.
 
 
-## ⚡ Getting Started
+## Getting Started
 
 These instructions will give you a copy of the project up and running on
 your local machine for development and testing purposes. 
 
-### 🧱 Prerequisites
+### Prerequisites
 Requirements for the software and other tools to build, test and push 
 - [Example 1](https://www.example.com)
 - [Example 2](https://www.example.com)
 
-### 🏗️ Installing
+### Installing
 A step by step series of examples that tell you how to get a development environment running
 
 Say what the step will be
@@ -58,7 +57,7 @@ And repeat
 End with an example of getting some data out of the system or using it
 for a little demo
 
-## 🧪 Testing
+## Testing
 Explain how to run tests for this project
 
 ### Sample Tests
@@ -66,7 +65,7 @@ Explain what these tests test and why
 
     Give an example
 
-## 🚀 Deployment
+## Deployment
 Add additional notes on how to deploy this on a live system
 
 ## ⚙️ Built With
@@ -75,7 +74,7 @@ Add additional notes on how to deploy this on a live system
   - [Creative Commons](https://creativecommons.org/) - Used to choose the license
 
 
-## 🙏 Acknowledgments
+## Acknowledgments
   - Hat tip to anyone whose code is used
   - Inspiration
   - etc

@@ -118,21 +118,10 @@ def main():
     """
     resize_image = True
     done_fix = False
-    debug = False
     center_image_to_hang = None
     while not done_fix:
         #original_picture, img_corner_points, selected_point_index, img_to_hang, wall_corner_points_numpy
         ###print("PICTURE TO HANG FIX-PICTURE:", picture_to_hang_file) #Picture to hang after slider.png
-        if debug:
-            print("BEGIN ******************")
-            print("wall_picture_file", wall_picture_file,
-             "corners_of_picture", corners_of_picture,
-             "selected_point_index", selected_point_index,
-             "picture_to_hang_file", picture_to_hang_file,
-             "wall_corner_points_numpy", wall_corner_points_numpy,
-             "resize_image", resize_image,
-             "wall_corner_points_vertex", wall_corner_points_vertex)
-            print("END ******************")
         selected_point_out, picture_to_hang_file, selected_point_index = (
             run_fix_picture(wall_picture_file, corners_of_picture, selected_point_index,picture_to_hang_file,
                             wall_corner_points_numpy, resize_image, wall_corner_points_vertex))

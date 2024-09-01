@@ -36,8 +36,8 @@ class LivePicture:
     #text color
     BLUE = (255,0,0)
     #device
-    DEVICE_INTERNAL = 0
-    DEVICE_EXTERNAL = 1
+    DEVICE_INTERNAL = 1
+    DEVICE_EXTERNAL = 0
 
     
     def __init__(self, target_point, wall_corner_points_vertex, direction = Line.HORIZONTAL):
@@ -302,7 +302,7 @@ def run_YOLO(target_point, wall_corner_points_vertex, direction):
     detector = LivePicture(target_point, wall_corner_points_vertex, direction)
 
     # Capture video from the webcam
-    video = cv2.VideoCapture(LivePicture.DEVICE_INTERNAL)
+    video = cv2.VideoCapture(LivePicture.DEVICE_EXTERNAL)
 
     while True:
         ret, frame = video.read()
